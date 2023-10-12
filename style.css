@@ -1,0 +1,39 @@
+.banner{
+    background-image: url(Genshin.jpg);
+    width: 100vw;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+
+}   
+
+.content{
+    display: flex;
+    text-align: center;
+}
+
+.left{
+    padding-left: 2.5vw;
+    padding-right:2.5vw;
+    width: 5.5vw;
+    display:inline-block;
+    float: left;
+}
+
+.right{
+    padding-left: 2.5vw;
+    padding-right:2.5vw;
+    width: 5.5vw;
+    display:inline-block;
+    float: right;
+
+}
+
+.center{
+    display: inline-block;
+   text-align: justify;
+}
+
+.left a,.right a{
+    display: block;
+}
