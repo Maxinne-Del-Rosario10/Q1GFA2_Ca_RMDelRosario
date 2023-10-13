@@ -1,11 +1,13 @@
-.banner{
-    background-image: url(Genshin.jpg);
-    width: 100vw;
-    height: 20vh;
-    background-size: cover;
-    background-position: center;
+*{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:lightslategrey;
+    padding: 2vh;
 
-}   
+}
 
 .content{
     display: flex;
@@ -15,6 +17,7 @@
 .left{
     padding-left: 2.5vw;
     padding-right:2.5vw;
+    flex-grow: 1;
     width: 5.5vw;
     display:inline-block;
     float: left;
@@ -23,6 +26,8 @@
 .right{
     padding-left: 2.5vw;
     padding-right:2.5vw;
+    overflow: hidden;
+    flex-grow: 1;
     width: 5.5vw;
     display:inline-block;
     float: right;
@@ -32,8 +37,34 @@
 .center{
     display: inline-block;
    text-align: justify;
+   flex-grow: 2;
 }
 
 .left a,.right a{
     display: block;
+}
+.link a{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration: none;
+    color: #8e3b22;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.logo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.left a{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration: none;
+    color: #8e3b22;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: azure;
+
 }
