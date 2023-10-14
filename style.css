@@ -4,14 +4,16 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color:lightslategrey;
+    background-color: #23326A;
     padding: 2vh;
+    margin-bottom: 4vh;
 
 }
 
 .content{
     display: flex;
     text-align: center;
+    
 }
 
 .left{
@@ -20,17 +22,17 @@
     flex-grow: 1;
     width: 5.5vw;
     display:inline-block;
-    float: left;
+
 }
 
 .right{
     padding-left: 2.5vw;
     padding-right:2.5vw;
     overflow: hidden;
-    flex-grow: 1;
+    flex-grow: 2;
     width: 5.5vw;
     display:inline-block;
-    float: right;
+    background-color: burlywood;
 
 }
 
@@ -38,16 +40,25 @@
     display: inline-block;
    text-align: justify;
    flex-grow: 2;
+   color:rgb(226, 228, 227);
+   background-color: #23326A;
+   opacity: .6;
+   padding-left: 5vw;
+   padding-right: 5vw;
+   
+}
+.center h2{
+    margin-bottom: 5vh;
 }
 
-.left a,.right a{
+.left a{
     display: block;
 }
 .link a{
     padding-left: 1vw;
     padding-right: 1vw;
     text-decoration: none;
-    color: #8e3b22;
+    color: #FABB23;
     font-weight: 900;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -65,6 +76,24 @@
     color: #8e3b22;
     font-weight: 900;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: azure;
+    background-color: burlywood;
 
+}
+.right img{
+    width: 80vh;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.left,.right,.center{
+    display: inline-block;
 }
